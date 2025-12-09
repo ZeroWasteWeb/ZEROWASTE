@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f0; /* Light background for the form section */
+    color: #333;
+}
+
+/* --- Header Styling --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #38761d; /* Dark green for header */
+    color: white;
+}
+
+.logo { 
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* White text on green background */
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white; /* White text on green background */
+    font-weight: 500;
+}
+
+.user-id {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* --- Hero Section Styling --- */
+.hero {
+    background-color: #6aa84f; /* Green background */
+    color: white;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.2;  
+}
+
+.hero p {
+     margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* --- Buttons --- */
+.btn {
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #6aa84f;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Rescue Feeds Section Styling --- */
+.rescue-feeds {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 90%;
+    margin-top: -30px; /* Overlap with the hero section slightly */
+}
+
+.form-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #38761d;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.form-section {
+    flex: 2;
+    padding: 30px 50px;
+}
+
+.impact-section {
+    flex: 1;
+    background-color: #f7fff2; /* Light green background for impact */
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-btn {
+    background-color: #38761d;
+    color: white;   
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #2b5c17;
+}
+
+/* Impact Section Details */
+.impact-section h3 {
+    font-size: 20px;
+    color: #38761d;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.impact-metric {
+    padding: 15px;
+    background-color: #e5f5e5;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.impact-metric p {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.impact-metric .value {
+    font-size: 36px;
+    font-weight: bold;
+    color: #38761d;
+}
+
+.real-time-note {
+    font-size: 12px;
+    color: #888;
+    margin-top: 30px;
+}
